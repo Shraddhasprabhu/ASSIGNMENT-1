@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management Complaint Filing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Waste Management Complaint Filing</h1>
+        <form id="complaintForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Your phone number">
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required placeholder="Location of waste issue">
+
+            <label for="description">Description of Complaint</label>
+            <textarea id="description" name="description" required placeholder="Describe the waste issue"></textarea>
+
+            <button type="submit">Submit Complaint</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
